@@ -7,7 +7,7 @@ export default function WhoWeServe() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 <div className="bento-card p-8 rounded-2xl">
                     <h4 className="text-lg font-bold mb-4 text-blue-500">Private Venture and Property Owners</h4>
-                    <p className="text-gray-400 text-sm leading-relaxed">Owners who need an <strong>engineer&apos;s eye</strong> 👁️ to manage vendors, create new tools, or ensure their tech project will stay on track.</p>
+                    <p className="text-gray-400 text-sm leading-relaxed">Owners who need an <strong>engineer&apos;s eye</strong> to manage vendors, create new tools, or ensure their tech project will stay on track.</p>
                 </div>
                 <div className="bento-card p-8 rounded-2xl">
                     <h4 className="text-lg font-bold mb-4 text-white">Startup Founders</h4>
