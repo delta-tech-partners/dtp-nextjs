@@ -2,7 +2,7 @@
 
 export default function Partners() {
     return (
-        <section id="partners" className="py-24 px-6 bg-[#0a0a0a] border-t border-gray-900">
+        <section id="about" className="py-24 px-6 bg-[#0a0a0a] border-t border-gray-900">
             <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl font-bold uppercase tracking-tighter italic">About Us</h2>
