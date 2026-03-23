@@ -10,7 +10,7 @@ export default function Navbar() {
         </div>
         <div className="hidden md:flex gap-8 text-base uppercase tracking-widest font-bold text-gray-400">
           <a href="#services" className="hover:text-white transition">Services</a>
-          <a href="#partners" className="hover:text-white transition">Partnerships</a>
+          <a href="#partnerships" className="hover:text-white transition">Partnerships</a>
           <a href="#philosophy" className="hover:text-white transition">Our Philosophy</a>
           <a href="#who-we-serve" className="hover:text-white transition">Who We Serve</a>
           <a href="#about" className="hover:text-white transition">About Us</a>

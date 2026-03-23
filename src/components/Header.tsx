@@ -5,7 +5,7 @@ export default function Header() {
         <header className="py-32 px-6">
             <div className="max-w-5xl mx-auto text-center">
                 <div className="mono text-blue-500 text-xs font-bold tracking-[0.3em] mb-4 uppercase">Delta Tech Partners</div>
-                <h1 className="text-5xl md:text-7xl font-black uppercase tracking-tighter leading-none mb-8 gradient-text">
+                <h1 className="text-5xl md:text-7xl font-black uppercase tracking-tighter leading-none mb-8 gradient-text animate-fade-in-up">
                     Your Technical Allies in a Complex Market
                 </h1>
                 <p className="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed mb-12">
