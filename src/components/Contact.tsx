@@ -4,7 +4,6 @@ export default function Contact() {
     return (
         <section id="contact" className="py-32 px-6 bg-[#050505] border-t border-gray-900 text-center">
             <div className="max-w-4xl mx-auto">
-                <h2 className="text-3xl font-black uppercase tracking-tighter italic mb-4 text-blue-500">Contact: Send us a Message, or Schedule a Call!</h2>
                 <h3 className="text-5xl md:text-6xl font-black uppercase tracking-tighter mb-12">Ready to Get things Done?</h3>
 
                 <p className="text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
@@ -14,7 +13,7 @@ export default function Contact() {
                 <div className="flex flex-col md:flex-row gap-6 justify-center items-center mb-20">
                     <a href="#" className="px-10 py-5 bg-blue-600 hover:bg-blue-700 text-white font-bold uppercase tracking-widest text-xs rounded-full transition-all">Schedule a Call</a>
                     <span className="text-gray-700 font-mono">OR</span>
-                    <a href="mailto:contact@deltatech.partners" className="px-10 py-5 border border-gray-700 hover:border-white text-white font-bold uppercase tracking-widest text-xs rounded-full transition-all">Direct Inquiry Form</a>
+                    <a href="mailto:ocarson@deltatechpartners.com" className="px-10 py-5 border border-gray-700 hover:border-white text-white font-bold uppercase tracking-widest text-xs rounded-full transition-all">Email Us</a>
                 </div>
 
                 <div className="mono text-gray-600 text-[10px] uppercase tracking-widest">
