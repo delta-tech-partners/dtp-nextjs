@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "../../public/dtp-logo-no-text.svg";
+import logo from "../../public/dtp-updated-logo.svg";
 
 export default function Navbar() {
   return (
