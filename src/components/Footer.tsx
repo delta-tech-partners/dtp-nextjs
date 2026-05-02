@@ -2,14 +2,14 @@
 
 export default function Footer() {
     return (
-        <footer className="py-12 border-t border-gray-900 px-6">
+        <footer className="py-12 border-t theme-border px-6 theme-section">
             <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
-                <div className="text-[10px] uppercase tracking-widest text-gray-500 font-bold">
+                <div className="text-[10px] uppercase tracking-widest theme-soft font-bold">
                     Delta Tech Partners &copy; 2026
                 </div>
-                <div className="flex gap-8 text-[10px] uppercase tracking-widest text-gray-500 font-bold">
-                    <a href="#" className="hover:text-white transition">Privacy Policy</a>
-                    <a href="#" className="hover:text-white transition">Terms of Service</a>
+                <div className="flex gap-8 text-[10px] uppercase tracking-widest theme-soft font-bold">
+                    <a href="#" className="theme-link transition" data-cursor="native">Privacy Policy</a>
+                    <a href="#" className="theme-link transition" data-cursor="native">Terms of Service</a>
                 </div>
             </div>
         </footer>

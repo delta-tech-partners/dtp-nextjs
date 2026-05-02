@@ -1,38 +1,32 @@
-// import { IconName } from "lucide-react"; // Import lucide-react icons here
+import Link from "next/link";
 
 export default function Partners() {
     return (
-        <section id="about" className="py-24 px-6 bg-[#0a0a0a] border-t border-gray-900">
+        <section id="about" className="py-24 px-6 theme-section-alt border-t theme-border">
             <div className="max-w-7xl mx-auto">
-                <div className="text-center mb-16">
+                <div className="text-center max-w-4xl mx-auto">
                     <h2 className="text-3xl font-bold uppercase tracking-tighter italic">About Us</h2>
-                    <p className="text-gray-500 mt-4 text-xl font-light">Institutional Rigor. Boutique Agility.</p>
-                    <div className="max-w-3xl mx-auto mt-6 text-gray-400 leading-relaxed">
-                        Delta Tech Partners was founded to bring the &quot;Citi Standard&quot; of engineering to the private sector. Our founding team bridges the gap between massive financial infrastructure and high-growth entrepreneurship.
+                    <p className="theme-soft mt-4 text-xl font-light">Institutional Rigor. Boutique Agility.</p>
+                    <div className="max-w-3xl mx-auto mt-6 theme-muted leading-relaxed">
+                        Delta Tech Partners was founded to bring enterprise-grade technical judgment to owner-led businesses. We help clients navigate software decisions with the discipline of a technical operator, the clarity of a product partner, and the independence of an owner&apos;s representative.
                     </div>
-                </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    <div className="bento-card p-8 rounded-2xl">
-                        <h4 className="text-xl font-bold mb-1">O&apos;Carson Fils</h4>
-                        <p className="text-blue-500 text-xs font-bold uppercase mb-4">Strategy & Product</p>
-                        <p className="text-gray-300 text-xs mb-2"><strong>Superpower:</strong> Bridging the gap between technical requirements and business ROI.</p>
-                        <p className="text-gray-400 text-xs leading-relaxed">A Business Analytics and Information Systems specialist, O&apos;Carson leads customer discovery, product roadmap design, and technical advocacy. He ensures every technical decision aligns with the owner&apos;s exit goals and long-term business value.</p>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 my-10 text-left">
+                        <div className="bento-card rounded-lg p-5">
+                            <p className="text-blue-500 text-xs font-bold uppercase tracking-widest mb-3">Product</p>
+                            <p className="theme-muted text-sm leading-relaxed">Clarify what should be built, bought, integrated, or retired.</p>
+                        </div>
+                        <div className="bento-card rounded-lg p-5">
+                            <p className="text-blue-500 text-xs font-bold uppercase tracking-widest mb-3">Platform</p>
+                            <p className="theme-muted text-sm leading-relaxed">Modernize systems so delivery, AI, data, and operations can scale.</p>
+                        </div>
+                        <div className="bento-card rounded-lg p-5">
+                            <p className="text-blue-500 text-xs font-bold uppercase tracking-widest mb-3">Experience</p>
+                            <p className="theme-muted text-sm leading-relaxed">Make complex tools feel credible, usable, and ready for real teams.</p>
+                        </div>
                     </div>
-
-                    <div className="bento-card p-8 rounded-2xl">
-                        <h4 className="text-xl font-bold mb-1">Arsène I. Muhire</h4>
-                        <p className="text-blue-500 text-xs font-bold uppercase mb-4">Platforms & Infrastructure</p>
-                        <p className="text-gray-300 text-xs mb-2"><strong>Superpower:</strong> Scaling reliable, &quot;four-nines&quot; (99.99%) backend systems.</p>
-                        <p className="text-gray-400 text-xs leading-relaxed">A Carnegie Mellon alum, Arsène is a full-stack and platform engineer obsessed with observability and performance. He specializes in modernizing monoliths, automating CI/CD pipelines, and building the invisible infrastructure that allows businesses to scale without breaking.</p>
-                    </div>
-
-                    <div className="bento-card p-8 rounded-2xl">
-                        <h4 className="text-xl font-bold mb-1">Lisa Copeland</h4>
-                        <p className="text-blue-500 text-xs font-bold uppercase mb-4">Frontend Architecture & UX</p>
-                        <p className="text-gray-300 text-xs mb-2"><strong>Superpower:</strong> Translating complex user needs into elite, modern interfaces.</p>
-                        <p className="text-gray-400 text-xs leading-relaxed">With over 8 years of experience, Lisa is a Senior Software Engineer specializing in frontend architecture and design systems. She focuses on building modular, accessible, and high-performance web applications that provide a premium experience for real-world users.</p>
-                    </div>
+                    <Link href="/about/team" className="inline-flex items-center justify-center px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-bold uppercase tracking-widest text-xs rounded-full transition-all">
+                        Meet the Team
+                    </Link>
                 </div>
             </div>
         </section>
