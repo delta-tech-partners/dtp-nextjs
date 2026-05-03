@@ -11,9 +11,9 @@ export default function Contact() {
                 </p>
 
                 <div className="flex flex-col md:flex-row gap-6 justify-center items-center mb-20">
-                    <a href="#" className="px-10 py-5 bg-blue-600 hover:bg-blue-700 text-white font-bold uppercase tracking-widest text-xs rounded-full transition-all" data-cursor="native">Schedule a Call</a>
+                    <a href="https://cal.com/deltatech/session" target="_blank" rel="noopener noreferrer" className="px-10 py-5 bg-blue-600 hover:bg-blue-700 text-white font-bold uppercase tracking-widest text-xs rounded-full transition-all" data-cursor="native">Schedule a Call</a>
                     <span className="theme-faint font-mono">OR</span>
-                    <a href="mailto:solutions@deltatechpartners.com" className="px-10 py-5 border theme-secondary-button font-bold uppercase tracking-widest text-xs rounded-full transition-all" data-cursor="native">Email Us</a>
+                    <a href="mailto:info@deltatechpartners.com" className="px-10 py-5 border theme-secondary-button font-bold uppercase tracking-widest text-xs rounded-full transition-all" data-cursor="native">Email Us</a>
                 </div>
 
                 <div className="mono theme-soft text-[10px] uppercase tracking-widest">

@@ -1,5 +1,4 @@
 import type { CSSProperties } from "react";
-import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Contact from "@/components/Contact";
@@ -46,9 +45,9 @@ export default function IndustryPageTemplate({ industry }: IndustryPageTemplateP
                 {industry.hero.body}
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link href="/#contact" className="px-8 py-4 bg-(--industry-accent) hover:bg-(--industry-accent-strong) text-white font-bold uppercase tracking-widest text-xs rounded-full transition-all text-center">
+                <a href="https://cal.com/deltatech/session" target="_blank" rel="noopener noreferrer" className="px-8 py-4 bg-(--industry-accent) hover:bg-(--industry-accent-strong) text-white font-bold uppercase tracking-widest text-xs rounded-full transition-all text-center">
                   {industry.hero.primaryCta}
-                </Link>
+                </a>
                 <a href="#industry-value" className="px-8 py-4 border theme-secondary-button font-bold uppercase tracking-widest text-xs rounded-full transition-all text-center">
                   {industry.hero.secondaryCta}
                 </a>
@@ -173,10 +172,10 @@ export default function IndustryPageTemplate({ industry }: IndustryPageTemplateP
             <p className="theme-muted text-lg leading-relaxed mb-10">
               {industry.finalCta.body}
             </p>
-            <Link href="/#contact" className="inline-flex items-center justify-center gap-3 px-10 py-5 bg-(--industry-accent) hover:bg-(--industry-accent-strong) text-white font-bold uppercase tracking-widest text-xs rounded-full transition-all">
+            <a href="https://cal.com/deltatech/session" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-3 px-10 py-5 bg-(--industry-accent) hover:bg-(--industry-accent-strong) text-white font-bold uppercase tracking-widest text-xs rounded-full transition-all">
               {industry.finalCta.label}
               <ArrowRight className="w-4 h-4" />
-            </Link>
+            </a>
           </div>
         </section>
       </main>

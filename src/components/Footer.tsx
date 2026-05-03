@@ -8,8 +8,8 @@ export default function Footer() {
                     Delta Tech Partners &copy; 2026
                 </div>
                 <div className="flex gap-8 text-[10px] uppercase tracking-widest theme-soft font-bold">
-                    <a href="#" className="theme-link transition" data-cursor="native">Privacy Policy</a>
-                    <a href="#" className="theme-link transition" data-cursor="native">Terms of Service</a>
+                    <a href="mailto:info@deltatechpartners.com" className="theme-link transition" data-cursor="native">info@deltatechpartners.com</a>
+                    <a href="https://cal.com/deltatech/session" target="_blank" rel="noopener noreferrer" className="theme-link transition" data-cursor="native">Book a Session</a>
                 </div>
             </div>
         </footer>
