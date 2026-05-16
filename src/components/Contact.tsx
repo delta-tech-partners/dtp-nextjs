@@ -16,8 +16,8 @@ export default function Contact() {
                     <a href="mailto:info@deltatechpartners.com" className="px-10 py-5 border theme-secondary-button font-bold uppercase tracking-widest text-xs rounded-full transition-all" data-cursor="native">Email Us</a>
                 </div>
 
-                <div className="mono theme-soft text-[10px] uppercase tracking-widest">
-                    Headquarters: Tampa Bay Area, Florida
+                <div className="mono text-gray-600 text-[10px] uppercase tracking-widest">
+                    Headquarters: Tampa Bay Area, Florida, USA
                 </div>
             </div>
         </section>
