@@ -17,7 +17,7 @@ export default function Contact() {
                 </div>
 
                 <div className="mono text-gray-600 text-[10px] uppercase tracking-widest">
-                    Headquarters: Tampa Bay Area, Florida, USA
+                    Headquarters: Tampa Bay Area, Florida
                 </div>
             </div>
         </section>
